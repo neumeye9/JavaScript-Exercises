@@ -1,0 +1,13 @@
+function slots(Q){                                                      /*Where Q is the number of quarters you start with. 1 quarter = 1 game*/
+  while (Q>0){                                                          /*If you have no quarters, you can't continue playing the slots*/
+    if (Math.floor(Math.random()*100)===Math.floor(Math.random()*100)){ /* conditional for winning*/
+      var win = Math.floor(Math.random()*50)+50;                        /* winnings between 50-100 qurters*/
+      Q+=win;                                                           /* return number of quarters if user wins */
+      console.log("Winner! You now have"+' '+ Q + ' ' + "quarters."); /* winning message to user */
+    }
+    Q--;                                                                /* use one quarter to play new game (-1 quarter) */
+  }
+  console.log("You have 0 quarters left!")                             /* once all quarters are wasted */
+}
+
+slots(150);

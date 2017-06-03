@@ -1,0 +1,23 @@
+var firstnum =1000;
+var secnum = 1.33334;
+var thirnum = -560.2;
+var fournum = 200;
+
+console.log (firstnum, secnum, thirnum, fournum);
+
+var string1= "Where in the world is Carmen San Diego?";
+var string2= "Happy Birthday, Lisa.";
+var string3= "My favorite color is yellow. What is yours?";
+
+console.log (string1, string2,string3);
+
+var age = 16;
+if(age < 18){console.log("Too Young");}
+
+var num = 3;
+if(num===4){
+    console.log("Buon Gusto!")
+}
+else{
+    console.log("Spaghetti");
+}

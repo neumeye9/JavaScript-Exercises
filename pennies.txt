@@ -1,0 +1,5 @@
+var amount = .01;
+
+for(var i = 2; i <= 30; i++){
+    amount = amount * 2;
+}
